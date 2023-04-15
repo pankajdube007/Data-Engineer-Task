@@ -1,0 +1,6 @@
+{
+    "recommendations": [
+        "formulahendry.vscode-mysql",
+        "ckolkman.vscode-postgres"
+    ]
+}
