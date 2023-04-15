@@ -80,6 +80,6 @@ def aggregate_data():
                 VALUES ('{device_id}', {max_temperature}, {data_points}, {distance}, '{previous_hour}')
             """)
             conn.execute(query)
-#while True:
+while True:
     # Wait until the current time is a
-    #aggregate_data()
+    aggregate_data()
